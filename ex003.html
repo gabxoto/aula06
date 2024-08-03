@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style> 
+        body{
+            background-color: aqua;
+            color: white; /*comentário em CSS*/
+            font-family: Arial, sans-serif;
+        }
+        H1{
+            color: rgb(255, 0, 140);
+        }
+        p{
+            font-size: 20px;
+            color: rgb(255, 0, 140);
+        }
+    </style>
+</head>
+<body> 
+   <H1> Olá, mundo!</H1> <!--comentário em HTML-->
+   <p>Meu primeiro programa em JS</p>
+ <script> //js
+    var n1 = Number(window.prompt('Digite um numero')); //string 
+    var n2 = Number(window.prompt('Digite um numero')); //string - com o comando prompt ele entende q é uma string - agora fazendo o Number.parseInt, estou convertendo de string para Int; Agora com o Number, o JS ja interpreta da forma que quiser. 
+    var s = n1 + n2;
+    alert(`Resultado entre ${n1} e ${n2} é igual a ${s}`);//concatenação
+    //(number + number) para adição
+    //(string + string) para concatenação 
+ </script>
+</body>
+</html>
